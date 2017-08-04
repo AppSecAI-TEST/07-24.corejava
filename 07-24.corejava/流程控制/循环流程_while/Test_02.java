@@ -4,16 +4,20 @@ public class Test_02 {
 
 	public static void main(String[] args) {
 
-		for( int x = 0 ; x<=50 ;x++) {
+		int x = 1;
 
-			if((x%2==0)) {
-				continue;  //跳过
-			}
-			
+		while (x < 10) {
+
+			if (x == 3) {
+				System.out.println("碰到3了  不输出");
+				x++;
+				continue;
+			} 
+				
 			System.out.println(x);
-			
-		}
+			x++;
 
+		}
 	}
 
 }

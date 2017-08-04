@@ -8,18 +8,22 @@ public class Test_04 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("请输入数据.......");
+		System.out.println("请输入开始位置");
 		
-		int x = sc.nextInt();
+		int x = sc.nextInt(); 
+		
+		
+		System.out.println("请输入结束位置");
+		int y = sc.nextInt(); 
 
-		for(  ; x<=50 ; x++ ) {
+		for(  ; x<= y ; x++ ) {
 
-			if((x%2==0)) {
+			if(x%2==0) {
 				continue;  //跳过
 			}
 			
 			System.out.println(x);
-			
+		
 			
 		}
 		
