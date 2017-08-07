@@ -7,6 +7,9 @@ public class Test_01 {
 		int sum = add(10, 10);
 
 		System.out.println(" sum : " + sum);
+		
+		
+	
 
 	}
 
