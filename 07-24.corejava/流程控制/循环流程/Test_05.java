@@ -1,4 +1,4 @@
-package 循环流程_while;
+package 循环流程;
 
 public class Test_05 {
 	

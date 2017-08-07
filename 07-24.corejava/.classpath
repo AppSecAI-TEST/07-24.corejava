@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="运算符"/>
 	<classpathentry kind="src" path="流程控制"/>
 	<classpathentry kind="src" path="阶段作业01"/>
+	<classpathentry kind="src" path="数组"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
