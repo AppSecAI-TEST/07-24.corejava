@@ -3,6 +3,9 @@ package 测试答案;
 public class MyArrayUtils {
 
 	public static void main(String[] args) {
+		
+		
+		String[] infos = {"java" , "oracle" , "c#"};
 
 		int[] array = { 1, 2, 3, 4, 5, 6, 7, 8 };
 
@@ -10,9 +13,11 @@ public class MyArrayUtils {
 		
 //		int[] result = removeElementFromIndex(array, 0);
 		
-		int[] result = subArray(array, 2, 6);
+//		int[] result = subArray(array, 2, 6);
+		
+//		int[] result = removeElementByIndex(array, 6);
 
-		printArr(result);
+//		printArr(result);
 
 	}
 
@@ -60,5 +65,22 @@ public class MyArrayUtils {
 		
 		return result;
 	}
+	
+	//根据下标 删除元素
+	public static int[] removeElementByIndex( int[] array , int index ) {
+		int len = array.length - 1;
+		int[] result = new int[ len ];
+		
+		for(int i = 0 ; i < index-1 ; i ++ ) {
+			result[i] = array[i];
+		}
+
+		for( int i = index-1 ; i < len ; i++ ) {
+			result[i] = array[i+1];
+		}
+		
+		return result;
+	}
+	
 
 }
