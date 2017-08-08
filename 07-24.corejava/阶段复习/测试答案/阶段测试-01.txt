@@ -13,7 +13,7 @@
 i = 0  j = 0  i = 0   j = 1  i = 1  j = 0  i = 1  j = 1  i = 2  j = 0  i = 2  j = 1
 2:
 i = 0  j = 0  i = 1  j = 1  i = 2  j = 2
-3:
+3: (true)
 i = 0  j = 1  i = 0  j = 2  i = 1  j = 0  i = 1  j = 2  i = 2  j = 0  i = 2  j = 1
 4:
 None of the above.
@@ -35,7 +35,7 @@ None of the above.
 
 1:
 The code fails to compile. The compiler complains that the variable x is used before it is initialised.
-2:
+2: (true)
 The code compiles correctly and displays "Value is 1" when executed.
 3:
 The code compiles correctly, but throws a NullPointerException at line 5.
@@ -132,7 +132,7 @@ object
 0 to +255
 2:
 -127 to +128
-3:
+3:(true)
 -128 to +127
 4:
 0 to 65535
@@ -172,15 +172,15 @@ Nothing is displayed.
 9. Which of the following statements are true.
 -------------------
 1:
-The type "int" is a 32-bit signed integer value.
+The type "int" is a 32-bit signed integer value. ( true)   4byte = 32bit
 2:
 The type "short" is a 16-bit unsigned integer value.
 3:
-The type "char" is a 16-bit Unicode character.
+The type "char" is a 16-bit Unicode character. ( true  )  2char = 16bit
 4:
 The type "float" is a 64-bit floating point value.
 5:
-The type "long" is a 64-bit signed integer value.
+The type "long" is a 64-bit signed integer value. ( true ) 8byte = 64bit
 
 
 --------------------------------
@@ -199,7 +199,7 @@ When executed, both segments will cause an exception to be thrown.
 2:
 When executed, neither segment will cause an exception to be thrown.
 3:
-Only Segment 1 will throw an exception.
+Only Segment 1 will throw an exception. (true)
 4:
 Only Segment 2 will throw an exception.
 
@@ -220,7 +220,7 @@ double d=999d;
 
 ------------------------------
 
-Which of the following are valid ways to declare the main() method which is used to start a Java program.
+12. Which of the following are valid ways to declare the main() method which is used to start a Java program.
 -------------------
 1:
 public static void main(String [] args)
