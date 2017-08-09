@@ -1,6 +1,6 @@
-package 类.测试;
+package oop_01.类.test;
 
-import 类.ShenXian;
+import oop_01.类.ShenXian;
 
 public class Test {
 
@@ -18,7 +18,7 @@ public class Test {
 		wukong.wuqi = "金箍棒";
 		wukong.zdl = 10;
 		wukong.nl = 10;
-		
+	
 		ShenXian bajie = new ShenXian();
 		//为对象中的属性  进行赋值 .
 		bajie.name  ="八戒";

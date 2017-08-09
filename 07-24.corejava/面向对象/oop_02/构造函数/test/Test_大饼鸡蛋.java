@@ -1,6 +1,6 @@
-package 构造函数.test;
+package oop_02.构造函数.test;
 
-import 构造函数.大饼鸡蛋;
+import oop_02.构造函数.大饼鸡蛋;
 
 public class Test_大饼鸡蛋 {
 	

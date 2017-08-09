@@ -1,6 +1,6 @@
-package 构造函数.test;
+package oop_02.构造函数.test;
 
-import 构造函数.A;
+import oop_02.构造函数.A;
 
 public class Test {
 

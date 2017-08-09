@@ -1,4 +1,4 @@
-package 构造函数;
+package oop_02.构造函数;
 
 public class A {
 
