@@ -34,8 +34,4 @@ public class Emp {
 		this.downs = downs;
 	}
 
-	
-	
-	
-
 }
