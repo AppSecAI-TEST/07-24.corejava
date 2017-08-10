@@ -5,6 +5,18 @@ public class Person {
 	private String name;
 	private int age;
 	private String email;
+	
+	private Addr[] addrs;
+	
+	
+
+	public Addr[] getAddrs() {
+		return addrs;
+	}
+
+	public void setAddrs(Addr[] addrs) {
+		this.addrs = addrs;
+	}
 
 	public String getName() {
 		return name;

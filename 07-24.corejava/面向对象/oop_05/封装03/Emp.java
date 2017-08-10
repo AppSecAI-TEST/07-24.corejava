@@ -8,7 +8,26 @@ public class Emp {
 
 	private Emp up;
 	private Emp[] downs;
+	
+	private Dept dept;
+	//ÎÒµÄ¸ÚÎ»
+	private WorkType type;
+	
+	
+	
 
+	public WorkType getType() {
+		return type;
+	}
+	public void setType(WorkType type) {
+		this.type = type;
+	}
+	public Dept getDept() {
+		return dept;
+	}
+	public void setDept(Dept dept) {
+		this.dept = dept;
+	}
 	public Person getPerson() {
 		return person;
 	}
