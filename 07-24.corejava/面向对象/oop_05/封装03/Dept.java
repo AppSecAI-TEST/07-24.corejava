@@ -8,17 +8,7 @@ public class Dept {
 	
 	private Emp[] emps;
 	
-	
-	public void addEmp() {
-		
-		
-		
-	}
-	
-	public void removeEmp() {
-		
-	}
-	
+
 
 	public int getDid() {
 		return did;

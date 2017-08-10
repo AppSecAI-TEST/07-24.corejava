@@ -2,6 +2,7 @@ package oop_05.封装03.test;
 
 import oop_05.封装03.Addr;
 import oop_05.封装03.Dept;
+import oop_05.封装03.DeptHandler;
 import oop_05.封装03.Emp;
 import oop_05.封装03.Person;
 import oop_05.封装03.WorkType;
@@ -58,6 +59,15 @@ public class Test02 {
 		dev.setMgr(empScott);
 		dev.setDid(1);
 		dev.setdName("开发部");
+		
+		//先初始化员工
+		Emp[] devDeptEmps = {empJack};
+		dev.setEmps(devDeptEmps);
+		
+		DeptHandler handler = new DeptHandler();
+		Emp[] newDevDeptEmps = handler.addEmp(devDeptEmps, empTom);
+		
+		dev.setEmps(newDevDeptEmps);
 		
 		
 		//构造岗位
