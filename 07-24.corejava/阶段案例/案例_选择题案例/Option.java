@@ -9,7 +9,6 @@ public class Option {
 	}
 	
 	public Option(char key, String text) {
-		super();
 		this.key = key;
 		this.text = text;
 	}

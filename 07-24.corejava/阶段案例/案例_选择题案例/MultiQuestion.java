@@ -28,9 +28,9 @@ public class MultiQuestion extends Question {
 
 		if (customerChoice != null && customerChoice.length == answer.length) { // 答案的个数和正确答案的个数 要匹配
 
-			for (int i = 0; i < answer.length; i++) {
+			for (int i = 0; i < answer.length; i++) {//用每个正确答案去比较 用户选择的答案
 
-				flag = ArrayUtils.contains(customerChoice, answer[i]);
+				flag = ArrayUtils.contains(customerChoice, answer[i]); //一旦发现有一个错误 , flag 会 变成 false ; 
 
 				if (!flag) break;
 			}

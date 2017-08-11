@@ -2,7 +2,7 @@ package 案例_选择题案例;
 
 public class Answer {
 	
-	private char[] choice;
+	private char[] choice; //单选  多选  都放在数组中 . 
 	
 	public Answer() {}
 
